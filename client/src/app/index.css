@@ -23,7 +23,23 @@ body {
   color: green;
 }
 
-.canto {
+#lista h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#lista ul li {
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: 3rem;
+}
+
+#lista ul li a:hover {
+  color: red;
+}
+
+#lista .canto {
   text-decoration: none;
   color: inherit;
 }
