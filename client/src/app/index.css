@@ -1,0 +1,82 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+.heading {
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+.subtitle {
+  margin-top: -2rem;
+}
+
+.success {
+  color: green;
+}
+
+.canto {
+  text-decoration: none;
+  color: inherit;
+}
+
+#canto .navbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  display: block;
+  height: 4rem;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+#canto .navbar .container {
+  width: 80%;
+}
+
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.navbar-item {
+  float: left;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.navbar-link {
+  color: #222;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  line-height: 4rem;
+  margin-right: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.popover {
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  display: none;
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, .1));
+  -moz-filter: drop-shadow(0 0 6px rgba(0, 0, 0, .1));
+  -webkit-filter: drop-shadow(0 0 6px rgba(0, 0, 0, .1));
+  left: -50%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  top: 92%;
+}
