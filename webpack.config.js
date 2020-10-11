@@ -59,6 +59,10 @@ export default {
         test: /linebreak[/\\]src[/\\]linebreaker.js/,
         loader: "transform-loader?brfs"
       },
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
       {test: /src[/\\]assets/, loader: "arraybuffer-loader"},
       {test: /\.afm$/, loader: "raw-loader"}
     ]

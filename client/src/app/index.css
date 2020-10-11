@@ -2,6 +2,10 @@ body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
+a:hover {
+  color: red;
+}
+
 .center-text {
   text-align: center;
 }
@@ -95,4 +99,49 @@ body {
   position: absolute;
   top: 0;
   top: 92%;
+}
+
+#cartilla {
+  padding: 40px;
+  width: 840px;
+  border: 1px solid black;
+}
+
+#cartilla p {
+  margin-bottom: -10px;
+}
+
+#cartilla .navbar a:hover {
+  color: red;
+}
+
+#cartilla .titulo {
+  color: red;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: -10px;
+  text-transform: uppercase;
+}
+
+#cartilla .sub-titulo {
+  font-size: small;
+}
+
+#cartilla .chord {
+  color: red;
+  font-size: smaller;
+}
+
+#cartilla .first {
+  margin-left: 32px;
+}
+
+#cartilla .flag {
+  color: gray;
+  margin-right: 15px
+}
+
+#cartilla .chorus {
+  font-weight: bold;
+  text-transform: uppercase;
 }

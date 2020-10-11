@@ -1,5 +1,5 @@
 [
-  {"nombre": "A la cena del cordero", "canto": "a_la_cena_del_cordero"},
+  {"nombre": "A la cena del cordero", "canto": "a_la_cena_del_cordero", "tono": 11, "color": "#CCFFCC"},
   {"nombre": "A la víctima pascual", "canto": "a_la_victima_pascual"},
   {"nombre": "A nadie demos ocasión de tropiezo", "canto": "a_nadie_demos_ocasion_de_tropiezo"},
   {"nombre": "A ti levanto mis ojos", "canto": "a_ti_levanto_mis_ojos"},
