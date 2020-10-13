@@ -63,6 +63,13 @@ export default {
         test: /\.html$/i,
         loader: 'html-loader',
       },
+      {
+        test: /\.(ogg|mp3|wav|mpe?g)$/i,
+        loader: "file-loader",
+        query: {
+          name: "[path][name].[ext]"
+        }
+      },
       {test: /src[/\\]assets/, loader: "arraybuffer-loader"},
       {test: /\.afm$/, loader: "raw-loader"}
     ]

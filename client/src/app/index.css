@@ -27,6 +27,10 @@ a:hover {
   color: green;
 }
 
+.focus {
+  display: block;
+}
+
 #lista h1 {
   font-size: 2rem;
   text-transform: uppercase;
@@ -64,18 +68,18 @@ a:hover {
   width: 80%;
 }
 
-.navbar-list {
+#canto .navbar .navbar-list {
   list-style: none;
   margin-bottom: 0;
 }
 
-.navbar-item {
+#canto .navbar .navbar-item {
   float: left;
   margin-bottom: 0;
   position: relative;
 }
 
-.navbar-link {
+#canto .navbar a {
   color: #222;
   font-size: 11px;
   font-weight: 600;
@@ -86,10 +90,13 @@ a:hover {
   text-transform: uppercase;
 }
 
-.popover {
+#canto .navbar a:hover {
+  color: red;
+}
+
+#canto .popover {
   background: #fff;
   border-radius: 4px;
-  border: 1px solid #eee;
   display: none;
   filter: drop-shadow(0 0 6px rgba(0, 0, 0, .1));
   -moz-filter: drop-shadow(0 0 6px rgba(0, 0, 0, .1));
@@ -99,6 +106,39 @@ a:hover {
   position: absolute;
   top: 0;
   top: 92%;
+}
+
+#canto .navbar #audio {
+  float: right;
+}
+
+#canto #codeNavPopover ul {
+  list-style: none;
+  margin: 0;
+}
+
+#canto #codeNavPopover li {
+  margin-bottom: 0;
+  padding: 0.25rem 1rem;
+  text-align: center;
+}
+
+#canto #codeNavPopover li:hover {
+  background-color: red;
+}
+
+#canto #codeNavPopover a {
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  line-height: 0;
+  margin-right: 0;
+  text-transform: none;
+}
+
+#canto #codeNavPopover li:hover a {
+  color: white;
+  /* font-weight: bold; */
 }
 
 #cartilla {
